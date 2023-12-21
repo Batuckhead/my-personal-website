@@ -1,0 +1,383 @@
+nav .container{
+    display: flex;
+    height: 62px;
+    width: 100%;
+    background-color:#161A30;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    z-index: 10;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#F0ECE5;
+    font-family:'Roboto',sans-serif;
+    
+}
+
+.computer{
+    height: 62px;
+    width: 70px;
+    margin-left: 50px;
+   
+}
+
+.text-of-flex{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex: 1; 
+    font-family:'Oswald', sans-serif;
+    font-size: 13px;
+    text-align: center;
+}
+
+.text{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    
+}
+
+.text-of-flex .text .radius-nav{
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.text-of-flex .text .radius-nav:hover{
+    background-color:#B6BBC4;
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+a{
+    color: #F0ECE5;        
+    text-decoration: none;
+}
+
+a:hover{
+    color: #161A30;
+    
+}
+
+.title{
+    border: 1px solid  ;
+    text-align: center;
+}
+
+.h1-title{
+    font-family:'Oswald', sans-serif;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.h3-title{
+    font-family:'Oswald', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+}
+
+#pro{
+    margin: 5px 0px 5px 5px;
+}
+
+.container-main{
+    position:relative;
+    top: 62px;
+}
+
+.me img{
+    height: 400px;
+    width: 300px;
+    margin: auto;
+    display: block;
+    border-radius: 20%;
+    margin-top: 120px;
+}
+
+.title-of-about{
+    display: flex;
+    justify-content: center;
+    font-family: 'Oswald',sans-serif;
+}
+
+.about{
+    padding: 0px;
+    margin: 20px;
+    width:650px;
+    font-size:18px;
+    line-height:23px;
+    text-align: center;
+}
+
+.about-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom:50px;
+    margin-top: 30px;
+}
+
+
+
+.education-title{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Oswald',sans-serif;
+    margin-top:50px;
+}
+
+.education{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.education-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 85px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.education .iu{
+    width: 130px;
+    height: auto;
+}
+
+.education p {
+    margin-left:20px;
+    width: 550px;
+    height: 200px;
+    margin-top:30px;
+    font-size: 18px;
+    text-align:left;
+    line-height: 23px;
+}
+.education .anadolu {
+    width: 170px;
+    height: auto;
+}
+
+
+.my-skills-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 1;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.my-skills-top-container .skills-h1-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald',sans-serif;
+    font-size: 30px;
+    margin-top:50px;
+}
+.computer-image{
+    height: 200px;
+    width: 200px;
+    margin-right:10px;
+}
+
+.language-image{
+    height:200px;
+    width:200px;
+    margin-right:10px;
+}
+.skills ul{
+    list-style:none;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: left;
+}
+.skills ul li {
+    width: 200px;
+}
+
+.skills .skills-title{
+    font-family: 'Oswald',sans-serif;
+}
+
+
+.my-hobbies-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.hobbies{
+    display: flex;
+    justify-content:center;
+}
+
+.my-hobbies-section .hobbies-h1-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family:'Oswald',sans-serif;
+    margin-top: 50px;
+    
+}
+
+.my-hobbies-container .guitar-image{
+    width: 250px;
+    height: 250px;
+    margin-right: 20px;
+}
+
+.my-hobbies-container .skate-image{
+    width: 250px;
+    height: 250px;
+    margin-right: 20px;
+}
+.my-hobbies-container .marvel-image{
+    width: 250px;
+    height: 250px;
+}
+
+.hobbies-main {
+    line-height:23px;
+    font-size: 18px;
+    text-align: left;
+    width: 500px;
+}
+
+.line{
+    border-left: 3px solid black;
+    height: 265px;
+    margin-right:3px;
+}
+
+.contact-me{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.contact-me  h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family:'Oswald',sans-serif;
+    margin-top: 30px;
+}
+.contact-me h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family:'Oswald',sans-serif;
+}
+
+.contact-me-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.contact-me img{
+    width: 100px;
+    height: 100px;
+}
+.contact-me .contact-me-title {
+    font-family:'Oswald',sans-serif;
+    text-align: center;
+    margin-top: 30px;
+}
+.contact-me-container .contact-me img:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+footer{
+    height: 125px;
+    background-color: #161A30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.icons{
+    display: flex;
+    gap:50px;
+    justify-content: center;
+    align-content: center;
+}
+.footer-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#F0ECE5;
+    font-size: 10px;
+}
+.icons img{
+    width: 27px;
+    height: 27px;
+    border-radius: 10px;
+}
+.icons img:hover{
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+
+/* Optional
+
+@media (prefers-color-scheme: dark) { 
+    body {
+      background-color:  #1a1a1a !important;
+      color: #F0F9FA !important;
+    }
+
+    .dark{
+        background-color: #4444 !important;
+        border-radius:5% !important;
+        background-color: whitesmoke !important;
+        box-shadow: 2px 2px 1.5rem cadetblue !important;
+    }
+    .my-hobbies-container .marvel-image{
+        margin-top: 20px !important;
+        margin-right: 15px !important;
+    }
+    nav .container {
+        background-color:cadetblue !important; 
+    }
+    footer{
+        background-color:cadetblue !important;
+    }
+  }
+  
+  */
